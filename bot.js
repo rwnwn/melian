@@ -13,8 +13,6 @@ client.on('message', msg => {
     }
 }
 })
----------------------
-client.on('ready', () => { //code bot not leave room voice //Bot Is Online
     client.channels.get("517374070912974873").join(); //by : Toxic Codes
     });
 client.login(process.env.BOT_TOKEN);
