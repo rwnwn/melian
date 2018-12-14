@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const Util = require('discord.js');
 client.on('message', msg => {
 
     if (msg.content == 'Mjoin') {
