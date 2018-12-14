@@ -1,7 +1,5 @@
 const Discord = require('discord.js');
-
 const Util = require('discord.js');
-
 client.on('message', msg => {
 
     if (msg.content == 'Mjoin') {
@@ -13,6 +11,6 @@ client.on('message', msg => {
     }
 }
 })
-    client.channels.get("517374070912974873").join(); //by : Toxic Codes
+    client.channels.get("517374070912974873").join();
     });
 client.login(process.env.BOT_TOKEN);
